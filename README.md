@@ -1,2 +1,3 @@
 # migrate_oracle_table_to_aerospike
-The code to migrate an Oracle table to Aerospike set
+
+Use an ETL tool like spark that gets data out of Oracle table and puts it in aerospike set. It can use JDBC connection to Oracle instance to read data and aerospike-spark connector to load data into Aerospike. You need the jar file for the database and aerospike-spark connect license. Again this will provide a jar file. Getting data out of MongoDB document into Aerospike is pretty straight forward with Spark. Practically every NoSQL vendor has a Spark connector module.
