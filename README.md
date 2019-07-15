@@ -11,5 +11,5 @@ Need to ensure that every node of Spark cluster has aerospike keyPath in the sam
 ```
 spark.conf.set("aerospike.keyPath", "/etc/aerospike/features.conf")
 ```
-otherwise you are going to get an error!
+Otherwise you are going to get an error!
 
