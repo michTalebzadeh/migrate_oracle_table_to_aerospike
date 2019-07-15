@@ -6,6 +6,8 @@ Use an ETL tool like spark that gets data out of Oracle table and puts it in aer
 Need jdbc driver for Oracle like ojdbc6.jar.
 Need arospike-spark connector license for Enterprise edition of Spark.
 Need the jar file for the above connector like aerospike-spark-assembly-1.1.2.jar.
-Need to ensure that every node of Spark cluster has aerospike keyPath in the same place. i.e. -->    spark.conf.set("aerospike.keyPath", "/etc/aerospike/features.conf"), otherwise you are going to get an error!
+Need to ensure that every node of Spark cluster has aerospike keyPath in the same place. i.e. -->    
+```
+spark.conf.set("aerospike.keyPath", "/etc/aerospike/features.conf"), otherwise you are going to get an error!
 ```
 
