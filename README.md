@@ -9,6 +9,7 @@ Need the jar file for the above connector like aerospike-spark-assembly-1.1.2.ja
 ```
 Need to ensure that every node of Spark cluster has aerospike keyPath in the same place. i.e. -->    
 ```
-spark.conf.set("aerospike.keyPath", "/etc/aerospike/features.conf"), otherwise you are going to get an error!
+spark.conf.set("aerospike.keyPath", "/etc/aerospike/features.conf")
 ```
+otherwise you are going to get an error!
 
